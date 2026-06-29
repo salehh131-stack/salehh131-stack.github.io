@@ -3,11 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>مدونة العلا | ALULA1T</title>
-<meta name="description" content="مدونة ALULA1T عن العلا: أين تقع العلا، أهم المعالم، المنتجعات، أسواق الحرف اليدوية، ونصائح السفر.">
-<meta name="robots" content="index, follow">
-
+<meta name="description" content="مدونة ALULA1T عن العلا ومعالمها ومنتجعاتها وأسواقها.">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,18 +18,24 @@
 </a>
 
 <nav class="menu">
-<a href="index.html">الرئيسية</a>
-<a href="blog.html">المدونة</a>
-<a href="tours.html">الجولات</a>
+<a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+<a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a>
+<a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a>
 </nav>
+
+<div class="langs">
+<button onclick="setLang('ar')">AR</button>
+<button onclick="setLang('en')">EN</button>
+</div>
 </div>
 </header>
 
-<section class="hero">
+<section class="hero blog-hero">
 <div class="container">
-<span class="tag">مدونة العلا</span>
-<h1>دليل مختصر لاكتشاف العلا</h1>
-<p>
+<span class="tag" data-ar="مدونة العلا" data-en="AlUla Blog">مدونة العلا</span>
+<h1 data-ar="دليل مختصر لاكتشاف العلا" data-en="A Short Guide to Discover AlUla">دليل مختصر لاكتشاف العلا</h1>
+<p data-ar="مقالات سياحية عن موقع العلا، تاريخها، أشهر معالمها، المنتجعات، الأسواق، ونصائح قبل الزيارة."
+data-en="Travel articles about AlUla location, history, landmarks, resorts, markets, and travel tips.">
 مقالات سياحية عن موقع العلا، تاريخها، أشهر معالمها، المنتجعات، الأسواق، ونصائح قبل الزيارة.
 </p>
 </div>
@@ -40,135 +43,94 @@
 
 <section class="section light">
 <div class="container">
-<h2 class="section-title">أين تقع العلا؟</h2>
-<p class="lead">
-تقع العلا في شمال غرب المملكة العربية السعودية ضمن منطقة المدينة المنورة. وتتميز بموقع جغرافي فريد يجمع بين الجبال الصحراوية، الواحات، التكوينات الصخرية، والمواقع التاريخية القديمة.
+<h2 class="section-title" data-ar="أين تقع العلا؟" data-en="Where is AlUla located?">أين تقع العلا؟</h2>
+<p class="lead" data-ar="تقع العلا في شمال غرب المملكة العربية السعودية ضمن منطقة المدينة المنورة، وتتميز بالجبال والواحات والتكوينات الصخرية والمواقع التاريخية."
+data-en="AlUla is located in northwestern Saudi Arabia within the Madinah Region, known for mountains, oases, rock formations, and historical sites.">
+تقع العلا في شمال غرب المملكة العربية السعودية ضمن منطقة المدينة المنورة، وتتميز بالجبال والواحات والتكوينات الصخرية والمواقع التاريخية.
 </p>
 </div>
 </section>
 
 <section class="section">
 <div class="container">
-<h2 class="section-title">أهم معالم العلا</h2>
+<h2 class="section-title" data-ar="أهم معالم العلا" data-en="Top Attractions">أهم معالم العلا</h2>
 
 <div class="cards">
-
 <div class="card">
-<img src="IMG_4078.png" alt="الحجر في العلا">
+<img src="IMG_4078.png" alt="الحجر">
 <div class="card-content">
-<h3>الحِجر</h3>
-<p>
-الحِجر من أشهر المواقع الأثرية في العلا، ويضم مقابر منحوتة في الصخور تعكس تاريخ الحضارات القديمة في المنطقة.
-</p>
+<h3 data-ar="الحِجر" data-en="Hegra">الحِجر</h3>
+<p data-ar="موقع أثري بارز ومن أهم معالم العلا التاريخية." data-en="A major archaeological site and one of AlUla’s top historical landmarks.">موقع أثري بارز ومن أهم معالم العلا التاريخية.</p>
 </div>
 </div>
 
 <div class="card">
 <img src="IMG_4077.png" alt="جبل الفيل">
 <div class="card-content">
-<h3>جبل الفيل</h3>
-<p>
-جبل الفيل تكوين صخري طبيعي يشبه الفيل، ويعد من أشهر أماكن التصوير في العلا خاصة وقت الغروب.
-</p>
+<h3 data-ar="جبل الفيل" data-en="Elephant Rock">جبل الفيل</h3>
+<p data-ar="تكوين صخري طبيعي شهير ومناسب للتصوير وقت الغروب." data-en="A famous natural rock formation and a great sunset photo spot.">تكوين صخري طبيعي شهير ومناسب للتصوير وقت الغروب.</p>
 </div>
 </div>
 
 <div class="card">
 <img src="IMG_4080.jpeg" alt="قاعة مرايا">
 <div class="card-content">
-<h3>قاعة مرايا</h3>
-<p>
-قاعة مرايا من أبرز المعالم الحديثة في العلا، وتتميز بتصميم عاكس ينسجم مع طبيعة الجبال والصحراء.
-</p>
+<h3 data-ar="قاعة مرايا" data-en="Maraya">قاعة مرايا</h3>
+<p data-ar="معلم حديث بتصميم عاكس ينسجم مع طبيعة العلا." data-en="A modern mirrored landmark that blends with AlUla’s landscape.">معلم حديث بتصميم عاكس ينسجم مع طبيعة العلا.</p>
 </div>
 </div>
 
 <div class="card">
 <img src="IMG_4079.png" alt="البلدة القديمة">
 <div class="card-content">
-<h3>البلدة القديمة</h3>
-<p>
-البلدة القديمة تضم أزقة تاريخية وأسواقًا ومقاهي تراثية، وهي مكان مناسب للتجول والتعرف على روح العلا القديمة.
-</p>
+<h3 data-ar="البلدة القديمة" data-en="Old Town">البلدة القديمة</h3>
+<p data-ar="أسواق وأزقة تراثية تعكس روح العلا القديمة." data-en="Traditional markets and alleys reflecting old AlUla.">أسواق وأزقة تراثية تعكس روح العلا القديمة.</p>
 </div>
 </div>
-
 </div>
 </div>
 </section>
 
 <section class="section light">
 <div class="container">
-<h2 class="section-title">أفضل المنتجعات في العلا</h2>
-
-<div class="cards">
-<div class="card"><div class="card-content">
-<h3>Banyan Tree AlUla</h3>
-<p>منتجع فاخر يقدم تجربة هادئة وسط الطبيعة الصحراوية والتكوينات الصخرية.</p>
-</div></div>
-
-<div class="card"><div class="card-content">
-<h3>Our Habitas AlUla</h3>
-<p>إقامة مميزة لمحبي الهدوء والتجارب الصحراوية والأنشطة المختلفة.</p>
-</div></div>
-
-<div class="card"><div class="card-content">
-<h3>Shaden Resort</h3>
-<p>منتجع بإطلالات جميلة على جبال العلا، مناسب للعائلات والزوار الباحثين عن الراحة.</p>
-</div></div>
-</div>
-</div>
-</section>
-
-<section class="section">
-<div class="container">
-<h2 class="section-title">أسواق الحرف اليدوية</h2>
-<p class="lead">
-تتميز أسواق البلدة القديمة بوجود متاجر للهدايا التذكارية والحرف اليدوية والمنتجات المحلية. يمكن للزائر شراء قطع تعكس تراث العلا مثل المنتجات المصنوعة يدويًا والهدايا المستوحاة من طبيعة المنطقة.
+<h2 class="section-title" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</h2>
+<p class="lead" data-ar="تضم العلا منتجعات مميزة مثل بانيان تري، هابيتاس، وشادن ريزورت، وتوفر إقامة هادئة وسط الطبيعة الصحراوية."
+data-en="AlUla includes remarkable resorts such as Banyan Tree, Habitas, and Shaden Resort, offering peaceful stays in the desert landscape.">
+تضم العلا منتجعات مميزة مثل بانيان تري، هابيتاس، وشادن ريزورت، وتوفر إقامة هادئة وسط الطبيعة الصحراوية.
 </p>
 </div>
 </section>
 
-<section class="section light">
-<div class="container">
-<h2 class="section-title">نصائح قبل زيارة العلا</h2>
-
-<div class="cards">
-<div class="card"><div class="card-content">
-<h3>احجز مبكرًا</h3>
-<p>في المواسم السياحية يفضل الحجز مبكرًا للجولات والإقامة والمطاعم.</p>
-</div></div>
-
-<div class="card"><div class="card-content">
-<h3>اختر وقت الزيارة</h3>
-<p>الصباح الباكر والغروب من أفضل الأوقات للتصوير وزيارة الأماكن المفتوحة.</p>
-</div></div>
-
-<div class="card"><div class="card-content">
-<h3>استعن بمرشد محلي</h3>
-<p>المرشد المحلي يساعدك في ترتيب الوقت وزيارة المواقع المهمة بسهولة.</p>
-</div></div>
-</div>
-</div>
-</section>
-
 <section class="section">
-<div class="container center">
-<h2 class="section-title">احجز جولتك في العلا</h2>
-<p>للاستفسار عن الجولات أو النقل من وإلى المطار، تواصل معنا عبر واتساب.</p>
-<a class="btn green" href="https://wa.me/966559094784" target="_blank">واتساب</a>
-<a class="btn gold" href="tours.html">صفحة الجولات</a>
+<div class="container">
+<h2 class="section-title" data-ar="أسواق الحرف اليدوية" data-en="Handicraft Markets">أسواق الحرف اليدوية</h2>
+<p class="lead" data-ar="تتميز البلدة القديمة بمتاجر الهدايا والحرف اليدوية والمنتجات المحلية التي تعكس تراث العلا."
+data-en="Old Town features souvenir shops, handicrafts, and local products that reflect AlUla’s heritage.">
+تتميز البلدة القديمة بمتاجر الهدايا والحرف اليدوية والمنتجات المحلية التي تعكس تراث العلا.
+</p>
 </div>
 </section>
 
 <footer>
 <div class="container">
 <p>© 2026 ALULA1T</p>
-<p>مدونة سياحية عن العلا</p>
+<p data-ar="مدونة سياحية عن العلا" data-en="Travel blog about AlUla">مدونة سياحية عن العلا</p>
 </div>
 </footer>
 
 <a class="whatsapp" href="https://wa.me/966559094784" target="_blank">واتساب</a>
+
+<script>
+function setLang(lang){
+document.documentElement.lang=lang;
+document.documentElement.dir=lang==="ar" ? "rtl" : "ltr";
+document.querySelectorAll("[data-"+lang+"]").forEach(function(el){
+el.textContent=el.getAttribute("data-"+lang);
+});
+localStorage.setItem("lang",lang);
+}
+setLang(localStorage.getItem("lang") || "ar");
+</script>
 
 </body>
 </html>
