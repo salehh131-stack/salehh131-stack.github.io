@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الجولات والحجز | ALULA1T</title>
+<meta name="description" content="جولات سياحية خاصة في العلا مع مرشد سياحي محلي ونقل من وإلى مطار العلا وبرامج مرنة للحجز عبر واتساب.">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="index.html">
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+<span>ALULA1T</span>
+</a>
+
+<nav class="menu">
+<a href="index.html">الرئيسية</a>
+<a href="blog.html">المدونة</a>
+<a href="tours.html">الجولات</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<span class="tag">جولات خاصة في العلا</span>
+<h1>جولات مع مرشد سياحي ونقل من وإلى المطار</h1>
+<p>
+نقدم برامج سياحية مرنة داخل العلا تشمل أهم المعالم التاريخية والطبيعية، مع مرشد سياحي محلي وخدمة استقبال وتوصيل من وإلى مطار العلا.
+</p>
+<a class="btn green" href="https://wa.me/966559094784" target="_blank">احجز عبر واتساب</a>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="section-title">خدمات الجولات</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="card-content">
+<div class="icon">👨‍💼</div>
+<h3>مرشد سياحي محلي</h3>
+<p>
+مرشد سياحي يعرف مواقع العلا، أفضل أوقات الزيارة، وأماكن التصوير المناسبة للزوار.
+</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<div class="icon">✈️</div>
+<h3>نقل من وإلى المطار</h3>
+<p>
+استقبال وتوصيل من وإلى مطار الأمير عبدالمجيد بن عبدالعزيز بالعلا حسب موعد الرحلة.
+</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<div class="icon">🚙</div>
+<h3>سيارة مريحة</h3>
+<p>
+تنقل داخل العلا بسيارة مناسبة للجولات السياحية الخاصة والأفراد والعائلات.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section light">
+<div class="container">
+<h2 class="section-title">برامج الجولات</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="card-content">
+<h3>جولة نصف يوم</h3>
+<p>
+مناسبة للزوار أصحاب الوقت القصير، وتشمل زيارة موقعين أو ثلاثة حسب وقت الوصول.
+</p>
+<a class="card-btn" href="https://wa.me/966559094784" target="_blank">احجز الآن</a>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>جولة يوم كامل</h3>
+<p>
+تشمل زيارة الحِجر، جبل الفيل، البلدة القديمة، قاعة مرايا، والمطلات حسب الوقت.
+</p>
+<a class="card-btn" href="https://wa.me/966559094784" target="_blank">احجز الآن</a>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>برنامج ثلاثة أيام</h3>
+<p>
+برنامج متكامل ومرن لاكتشاف أهم معالم العلا والتجارب السياحية المحلية.
+</p>
+<a class="card-btn" href="https://wa.me/966559094784" target="_blank">احجز الآن</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="section-title">المعالم التي يمكن زيارتها</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="IMG_4078.png" alt="الحجر">
+<div class="card-content">
+<h3>الحِجر</h3>
+<p>موقع أثري عالمي ووجهة رئيسية لمحبي التاريخ والآثار.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4077.png" alt="جبل الفيل">
+<div class="card-content">
+<h3>جبل الفيل</h3>
+<p>تكوين صخري طبيعي مناسب للتصوير وقت الغروب.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4080.jpeg" alt="قاعة مرايا">
+<div class="card-content">
+<h3>قاعة مرايا</h3>
+<p>معلم معماري عاكس وسط طبيعة العلا الصحراوية.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4079.png" alt="البلدة القديمة">
+<div class="card-content">
+<h3>البلدة القديمة</h3>
+<p>أزقة وأسواق تراثية ومقاهٍ محلية جميلة.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section light">
+<div class="container">
+<h2 class="section-title">الأسعار</h2>
+<p class="lead">
+الأسعار مرنة حسب عدد الأشخاص، مدة الجولة، المواقع المطلوبة، ووقت الحجز.
+للحصول على عرض مناسب، تواصل معنا عبر واتساب.
+</p>
+
+<div class="center">
+<a class="btn green" href="https://wa.me/966559094784" target="_blank">طلب عرض سعر</a>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 ALULA1T</p>
+<p>جولات خاصة • مرشد سياحي • نقل من وإلى مطار العلا</p>
+</div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/966559094784" target="_blank">واتساب</a>
+
+</body>
+</html>
