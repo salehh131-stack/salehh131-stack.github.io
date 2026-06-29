@@ -1,250 +1,134 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>ALULA1T | اكتشف العلا</title>
-<meta name="description" content="ALULA1T مدونة سياحية عن العلا تشمل المعالم السياحية والجولات الخاصة ونصائح السفر.">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2048265848046448" crossorigin="anonymous"></script>
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{font-family:Tahoma,Arial,sans-serif;background:#f4efe6;color:#1d1710;line-height:1.8}
-a{text-decoration:none;color:inherit}
-.container{width:92%;max-width:1150px;margin:auto}
-
-header{background:#11100e;color:white;padding:16px 0;position:sticky;top:0;z-index:999}
-nav{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
-.logo{font-size:30px;font-weight:bold;color:#c99b4a}
-.menu{display:flex;gap:16px;flex-wrap:wrap}
-.menu a{color:white;font-weight:bold}
-.translate-box{background:#c99b4a;padding:8px 12px;border-radius:25px;color:#111;font-weight:bold}
-
-.hero{
-min-height:520px;
-background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.7)),url("https://salehh131-stack.github.io/IMG_3826.jpeg") center/cover;
-display:flex;
-align-items:center;
-text-align:center;
-color:white
-}
-.hero h1{font-size:44px;color:#d7b16b;margin-bottom:15px}
-.hero p{font-size:21px;margin-bottom:20px}
-.btn{display:inline-block;background:#c99b4a;color:#111;padding:13px 25px;border-radius:35px;font-weight:bold;margin:6px}
-.green{background:#25D366;color:white}
-
-.section{padding:55px 0}
-.title{text-align:center;color:#8a5a22;font-size:34px;margin-bottom:30px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
-.card{background:#fffaf2;border:1px solid #e3d6c3;border-radius:20px;overflow:hidden;box-shadow:0 10px 25px #0001}
-.card img{width:100%;height:210px;object-fit:cover}
-.card-content{padding:22px}
-.card h3{color:#8a5a22;margin-bottom:10px}
-.info-box{background:#fffaf2;border:2px dashed #c99b4a;border-radius:18px;padding:22px;text-align:center;color:#8a5a22;font-weight:bold}
-
-.whatsapp{position:fixed;left:18px;bottom:18px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;font-weight:bold;z-index:1000}
-footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin-top:30px}
-
-.skiptranslate iframe{display:none!important}
-body{top:0!important}
-
-@media(max-width:700px){
-.logo{font-size:26px}
-.menu{gap:10px;font-size:15px}
-.hero h1{font-size:32px}
-.hero p{font-size:18px}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALULA1T | اكتشف العلا</title>
+  <meta name="description" content="مدونة سياحية عن العلا تشمل المعالم السياحية والجولات الخاصة ونصائح السفر.">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<div class="container">
-<nav>
-<div class="logo">ALULA1T</div>
+  <div class="container nav">
+    <div class="logo">ALULA1T</div>
 
-<div class="menu">
-<a href="#home">الرئيسية</a>
-<a href="#about">من نحن</a>
-<a href="#places">المعالم</a>
-<a href="#blog">المدونة</a>
-<a href="#contact">تواصل</a>
-</div>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#places">المعالم</a>
+      <a href="#blog">المدونة</a>
+      <a href="#contact">تواصل</a>
+    </nav>
 
-<div class="translate-box">
-<div id="google_translate_element"></div>
-</div>
-</nav>
-</div>
+    <div class="langs">
+      <a href="index.html">AR</a>
+      <a href="en/index.html">EN</a>
+      <a href="zh/index.html">中文</a>
+    </div>
+  </div>
 </header>
 
-<section class="hero" id="home">
-<div class="container">
-<h1>اكتشف العلا مع ALULA1T</h1>
-<p>مدونة سياحية وجولات خاصة للتعريف بأجمل معالم العلا التاريخية والطبيعية.</p>
-<a class="btn green" href="https://wa.me/966559094784" target="_blank">احجز عبر واتساب</a>
-<a class="btn" href="#blog">اقرأ المدونة</a>
-</div>
+<section class="hero">
+  <div class="container hero-content">
+    <h1>اكتشف العلا مع ALULA1T</h1>
+    <p>مدونة سياحية وجولات خاصة للتعريف بأجمل معالم العلا التاريخية والطبيعية.</p>
+    <a class="btn green" href="https://wa.me/966559094784" target="_blank">احجز عبر واتساب</a>
+  </div>
 </section>
 
 <section class="section" id="about">
-<div class="container">
-<h2 class="title">من نحن</h2>
-<div class="card">
-<div class="card-content">
-<p>
-ALULA1T مدونة سياحية تهتم بالتعريف بمدينة العلا في المملكة العربية السعودية.
-نقدم معلومات مبسطة للزوار عن أشهر المعالم، أفضل أوقات الزيارة، نصائح السفر،
-والجولات الخاصة داخل العلا. هدفنا مساعدة الزائر على التخطيط لرحلة مريحة وممتعة.
-</p>
-</div>
-</div>
-</div>
+  <div class="container">
+    <h2 class="title">من نحن</h2>
+    <div class="card text-card">
+      <p>
+        ALULA1T مدونة سياحية تهتم بالتعريف بمدينة العلا في المملكة العربية السعودية.
+        نقدم معلومات مفيدة عن المعالم التاريخية والطبيعية، ونصائح تساعد الزائر على التخطيط لرحلته.
+      </p>
+    </div>
+  </div>
 </section>
 
 <section class="section" id="places">
-<div class="container">
-<h2 class="title">أشهر معالم العلا</h2>
-<div class="cards">
+  <div class="container">
+    <h2 class="title">أشهر معالم العلا</h2>
 
-<div class="card">
-<img src="https://salehh131-stack.github.io/IMG_3826.jpeg" alt="الحجر في العلا">
-<div class="card-content">
-<h3>الحِجر</h3>
-<p>موقع أثري مهم وواحد من أبرز معالم العلا التاريخية، ويجذب الزوار المهتمين بالتاريخ والآثار.</p>
-</div>
-</div>
+    <div class="cards">
+      <div class="card">
+        <img src="images/IMG_3826.jpeg" alt="الحجر في العلا">
+        <div class="card-content">
+          <h3>الحِجر</h3>
+          <p>موقع أثري مهم ومن أشهر معالم العلا التاريخية.</p>
+        </div>
+      </div>
 
-<div class="card">
-<img src="https://salehh131-stack.github.io/IMG_3675.jpeg" alt="جبل الفيل">
-<div class="card-content">
-<h3>جبل الفيل</h3>
-<p>تكوين صخري طبيعي فريد يشبه الفيل، ويعد من أشهر أماكن التصوير في العلا خاصة وقت الغروب.</p>
-</div>
-</div>
+      <div class="card">
+        <img src="images/IMG_3675.jpeg" alt="جبل الفيل">
+        <div class="card-content">
+          <h3>جبل الفيل</h3>
+          <p>تكوين صخري طبيعي جميل ومناسب للتصوير وقت الغروب.</p>
+        </div>
+      </div>
 
-<div class="card">
-<img src="https://salehh131-stack.github.io/IMG_3827.png" alt="البلدة القديمة في العلا">
-<div class="card-content">
-<h3>البلدة القديمة</h3>
-<p>منطقة تراثية تضم أزقة وأسواقًا قديمة وتجربة ثقافية هادئة تعكس تاريخ العلا.</p>
-</div>
-</div>
+      <div class="card">
+        <img src="images/IMG_3827.png" alt="البلدة القديمة">
+        <div class="card-content">
+          <h3>البلدة القديمة</h3>
+          <p>منطقة تراثية تضم أزقة وأسواقًا قديمة وتجربة ثقافية هادئة.</p>
+        </div>
+      </div>
 
-<div class="card">
-<img src="https://salehh131-stack.github.io/IMG_4080.jpeg" alt="قاعة مرايا">
-<div class="card-content">
-<h3>قاعة مرايا</h3>
-<p>معلم حديث بتصميم عاكس جميل ينسجم مع طبيعة العلا الصحراوية والجبال المحيطة.</p>
-</div>
-</div>
-
-</div>
-</div>
+      <div class="card">
+        <img src="images/IMG_4080.jpeg" alt="قاعة مرايا">
+        <div class="card-content">
+          <h3>قاعة مرايا</h3>
+          <p>معلم حديث بتصميم عاكس ينسجم مع طبيعة العلا.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<div class="container">
-<div class="info-box">
-مقالات ونصائح سياحية عن العلا يتم تحديثها باستمرار
-</div>
-</div>
-
 <section class="section" id="blog">
-<div class="container">
-<h2 class="title">مدونة العلا</h2>
-<div class="cards">
+  <div class="container">
+    <h2 class="title">مدونة العلا</h2>
 
-<div class="card">
-<div class="card-content">
-<h3>أفضل وقت لزيارة العلا</h3>
-<p>
-يعد فصل الشتاء والربيع من أفضل الأوقات لزيارة العلا بسبب اعتدال الأجواء.
-يفضل الزوار اختيار أوقات الصباح أو قبل الغروب للاستمتاع بالمناظر الطبيعية والتصوير.
-كما ينصح بالحجز المبكر في المواسم السياحية لأن الطلب يكون مرتفعًا.
-</p>
-</div>
-</div>
+    <div class="cards">
+      <div class="card text-card">
+        <h3>أفضل وقت لزيارة العلا</h3>
+        <p>الشتاء والربيع من أفضل الأوقات لزيارة العلا بسبب اعتدال الأجواء.</p>
+      </div>
 
-<div class="card">
-<div class="card-content">
-<h3>برنامج 3 أيام في العلا</h3>
-<p>
-يمكن أن يبدأ البرنامج بزيارة البلدة القديمة وجبل الفيل في اليوم الأول.
-وفي اليوم الثاني يمكن زيارة الحِجر والمواقع التاريخية.
-أما اليوم الثالث فيمكن تخصيصه لقاعة مرايا، المطلات الطبيعية، والتجارب المحلية.
-</p>
-</div>
-</div>
+      <div class="card text-card">
+        <h3>برنامج 3 أيام في العلا</h3>
+        <p>يمكن زيارة البلدة القديمة، جبل الفيل، الحِجر، وقاعة مرايا ضمن برنامج منظم.</p>
+      </div>
 
-<div class="card">
-<div class="card-content">
-<h3>نصائح قبل زيارة العلا</h3>
-<p>
-ينصح بارتداء ملابس مريحة، حمل الماء، تجهيز الكاميرا، والحجز المسبق للجولات.
-كما يفضل ترتيب البرنامج قبل الوصول حتى يستفيد الزائر من وقته ويزور أكبر عدد من المواقع.
-</p>
-</div>
-</div>
-
-</div>
-</div>
+      <div class="card text-card">
+        <h3>نصائح قبل الزيارة</h3>
+        <p>احجز مبكرًا، ارتدِ ملابس مريحة، واحمل الماء والكاميرا.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section" id="contact">
-<div class="container">
-<h2 class="title">تواصل وحجز</h2>
-<div class="card">
-<div class="card-content" style="text-align:center">
-<h3>احجز جولتك الآن</h3>
-<p>للحجز والاستفسار عن الجولات السياحية في العلا، تواصل معنا عبر واتساب.</p>
-<a class="btn green" href="https://wa.me/966559094784" target="_blank">فتح واتساب</a>
-</div>
-</div>
-</div>
+  <div class="container">
+    <h2 class="title">تواصل وحجز</h2>
+    <div class="card text-card center">
+      <h3>احجز جولتك الآن</h3>
+      <p>للحجز والاستفسار عن الجولات السياحية في العلا، تواصل معنا عبر واتساب.</p>
+      <a class="btn green" href="https://wa.me/966559094784" target="_blank">فتح واتساب</a>
+    </div>
+  </div>
 </section>
-
-<section class="section" id="privacy">
-<div class="container">
-<div class="card">
-<div class="card-content">
-<h3>سياسة الخصوصية</h3>
-<p>
-نحترم خصوصية الزوار، ولا نجمع بيانات شخصية إلا عند التواصل معنا طوعًا للحجز أو الاستفسار.
-قد يستخدم الموقع خدمات إعلانية مثل Google AdSense بعد الموافقة لعرض الإعلانات وفق سياسات Google.
-</p>
-
-<h3>شروط الاستخدام</h3>
-<p>
-المحتوى المنشور في الموقع للتعريف بالسياحة في العلا.
-قد تختلف الأسعار والمواعيد حسب الموسم والتوفر، لذلك ينصح بالتواصل المباشر قبل تأكيد الحجز.
-</p>
-</div>
-</div>
-</div>
-</section>
-
-<a class="whatsapp" href="https://wa.me/966559094784" target="_blank">واتساب</a>
 
 <footer>
-<p>© 2026 ALULA1T - جميع الحقوق محفوظة</p>
-<p>مدونة سياحية وجولات خاصة في العلا</p>
+  <p>© 2026 ALULA1T - جميع الحقوق محفوظة</p>
 </footer>
 
-<script>
-function googleTranslateElementInit(){
-new google.translate.TranslateElement({
-pageLanguage:'ar',
-layout:google.translate.TranslateElement.InlineLayout.SIMPLE,
-autoDisplay:false
-},'google_translate_element');
-}
-</script>
-
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<a class="whatsapp" href="https://wa.me/966559094784" target="_blank">واتساب</a>
 
 </body>
 </html>
