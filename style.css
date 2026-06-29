@@ -1,0 +1,31 @@
+.section-title{
+display:inline-block;
+background:#111;
+color:#d6a84d;
+padding:10px 24px;
+border-radius:30px;
+font-size:30px;
+font-weight:bold;
+margin:0 auto 30px;
+text-align:center;
+}
+
+.section .container{
+text-align:center;
+}
+
+.section .cards,
+.section .lead,
+.section .info-grid{
+text-align:initial;
+}
+
+.card h3{
+display:inline-block;
+background:#ead8b8;
+color:#7b4b14;
+padding:7px 16px;
+border-radius:20px;
+font-size:20px;
+margin-bottom:12px;
+}
