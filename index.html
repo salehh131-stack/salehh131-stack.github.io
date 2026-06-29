@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ALULA1T | اكتشف العلا</title>
-<meta name="description" content="مدونة سياحية بسيطة عن العلا تشمل العروض، المعالم، والمقالات السياحية.">
+<title>ALULA1T | Discover AlUla</title>
+<meta name="description" content="ALULA1T is a tourism blog about AlUla, including attractions, travel tips, private tours, and visitor information in Arabic and English.">
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2048265848046448" crossorigin="anonymous"></script>
 
@@ -13,30 +13,37 @@
 body{font-family:Tahoma,Arial,sans-serif;background:#f4efe6;color:#1d1710;line-height:1.8}
 a{text-decoration:none;color:inherit}
 .container{width:90%;max-width:1100px;margin:auto}
-header{background:#11100e;color:white;padding:14px 0;position:sticky;top:0;z-index:99}
+header{background:#11100e;color:#fff;padding:14px 0;position:sticky;top:0;z-index:99}
 nav{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
 .logo{display:flex;align-items:center;gap:10px;color:#c99b4a;font-weight:bold;font-size:24px}
-.logo img{height:65px;border-radius:12px}
-nav a{color:white;margin:0 7px;font-weight:bold}
-.lang button{background:#c99b4a;border:0;padding:6px 10px;border-radius:20px;font-weight:bold}
-.hero{min-height:520px;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),url("https://salehh131-stack.github.io/1AlulA1/IMG_3826.jpeg") center/cover;display:flex;align-items:center;text-align:center;color:white}
+.logo img{height:60px;border-radius:12px}
+nav a{color:#fff;margin:0 7px;font-weight:bold}
+.lang button{background:#c99b4a;border:0;padding:7px 13px;border-radius:20px;font-weight:bold;cursor:pointer}
+.hero{min-height:520px;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.7)),url("https://salehh131-stack.github.io/1AlulA1/IMG_3826.jpeg") center/cover;display:flex;align-items:center;text-align:center;color:white}
 .hero h1{font-size:42px;color:#d7b16b;margin-bottom:12px}
 .hero p{font-size:20px;margin-bottom:20px}
-.btn{display:inline-block;background:#c99b4a;color:#111;padding:12px 22px;border-radius:30px;font-weight:bold;margin:5px}
+.btn{display:inline-block;background:#c99b4a;color:#111;padding:12px 22px;border-radius:30px;font-weight:bold;margin:6px}
 .green{background:#25D366;color:white}
 .section{padding:55px 0}
 .title{text-align:center;color:#8a5a22;font-size:32px;margin-bottom:28px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
 .card{background:#fffaf2;border:1px solid #e3d6c3;border-radius:20px;overflow:hidden;box-shadow:0 10px 25px #0001}
 .card img{width:100%;height:210px;object-fit:cover}
 .card-content{padding:20px}
 .card h3{color:#8a5a22;margin-bottom:8px}
 .badge{display:inline-block;background:#ead7b8;color:#805a29;padding:4px 12px;border-radius:20px;font-weight:bold;margin-bottom:8px}
-.adbox{border:2px dashed #c99b4a;text-align:center;padding:22px;border-radius:18px;background:#fffaf2;color:#8a5a22}
+.info-box{border:2px dashed #c99b4a;text-align:center;padding:22px;border-radius:18px;background:#fffaf2;color:#8a5a22}
 footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin-top:35px}
 .whatsapp{position:fixed;left:18px;bottom:18px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;font-weight:bold;z-index:100}
 .lang-content{display:none}
 .lang-content.active{display:block}
+html[dir="ltr"] body{text-align:left}
+html[dir="rtl"] body{text-align:right}
+@media(max-width:600px){
+.hero h1{font-size:31px}
+.hero p{font-size:17px}
+.logo img{height:50px}
+}
 </style>
 </head>
 
@@ -46,21 +53,20 @@ footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin
 <div class="container">
 <nav>
 <div class="logo">
-<img src="3547CBFE-97B0-4988-8081-9C766AA00BE1.png" alt="ALULA1T">
+<img src="3547CBFE-97B0-4988-8081-9C766AA00BE1.png" alt="ALULA1T Logo">
 <span>ALULA1T</span>
 </div>
 
 <div>
-<a href="#offers">العروض</a>
-<a href="#places">المعالم</a>
-<a href="#blog">المدونة</a>
-<a href="#contact">تواصل</a>
+<a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+<a href="#places" data-ar="المعالم" data-en="Attractions">المعالم</a>
+<a href="#blog" data-ar="المدونة" data-en="Blog">المدونة</a>
+<a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
 </div>
 
 <div class="lang">
 <button onclick="setLang('ar')">AR</button>
 <button onclick="setLang('en')">EN</button>
-<button onclick="setLang('zh')">中文</button>
 </div>
 </nav>
 </div>
@@ -69,96 +75,85 @@ footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin
 <section class="hero">
 <div class="container">
 
-<div class="lang-content active" id="ar">
+<div class="lang-content active" id="hero-ar">
 <h1>اكتشف العلا مع ALULA1T</h1>
-<p>جولات سياحية خاصة، عروض مرنة، ومدونة مختصرة عن أجمل معالم العلا.</p>
-</div>
-
-<div class="lang-content" id="en">
-<h1>Discover AlUla with ALULA1T</h1>
-<p>Private tours, flexible offers, and a simple travel blog about AlUla.</p>
-</div>
-
-<div class="lang-content" id="zh">
-<h1>与 ALULA1T 探索埃尔奥拉</h1>
-<p>私人旅游、灵活套餐和关于埃尔奥拉的旅行博客。</p>
-</div>
-
+<p>مدونة سياحية وجولات خاصة للتعريف بأجمل معالم العلا التاريخية والطبيعية.</p>
 <a class="btn green" href="https://wa.me/966559094784" target="_blank">احجز عبر واتساب</a>
 <a class="btn" href="#blog">اقرأ المدونة</a>
 </div>
+
+<div class="lang-content" id="hero-en">
+<h1>Discover AlUla with ALULA1T</h1>
+<p>A travel blog and private tour guide service for exploring the beauty, history, and nature of AlUla.</p>
+<a class="btn green" href="https://wa.me/966559094784" target="_blank">Book on WhatsApp</a>
+<a class="btn" href="#blog">Read Blog</a>
+</div>
+
+</div>
 </section>
 
-<section class="section" id="offers">
+<section class="section" id="about">
 <div class="container">
-<h2 class="title">العروض السياحية</h2>
-<div class="cards">
 
-<div class="card">
-<div class="card-content">
-<span class="badge">يوم واحد</span>
-<h3>جولة سريعة</h3>
-<p>زيارة أبرز معالم العلا حسب وقت الزائر مثل جبل الفيل والبلدة القديمة.</p>
-<a class="btn green" href="https://wa.me/966559094784">احجز الآن</a>
-</div>
-</div>
-
-<div class="card">
-<div class="card-content">
-<span class="badge">3 أيام</span>
-<h3>برنامج متكامل</h3>
-<p>برنامج مرن يشمل الحِجر، قاعة مرايا، جبل الفيل، والبلدة القديمة.</p>
-<a class="btn green" href="https://wa.me/966559094784">احجز الآن</a>
-</div>
+<div class="lang-content active" id="about-ar">
+<h2 class="title">من نحن</h2>
+<div class="card"><div class="card-content">
+<p>
+ALULA1T مدونة سياحية تهتم بالتعريف بمدينة العلا ومعالمها التاريخية والطبيعية.
+نقدم للزائر معلومات مبسطة عن الأماكن السياحية، أفضل أوقات الزيارة، ونصائح تساعده على التخطيط لرحلته.
+كما نوفر خدمة جولات خاصة حسب الوقت والبرنامج المناسب للزائر.
+</p>
+</div></div>
 </div>
 
-<div class="card">
-<div class="card-content">
-<span class="badge">خاص</span>
-<h3>جولة حسب الطلب</h3>
-<p>اختر المواقع والوقت المناسب، والأسعار مرنة حسب البرنامج وعدد الأشخاص.</p>
-<a class="btn green" href="https://wa.me/966559094784">احجز الآن</a>
-</div>
+<div class="lang-content" id="about-en">
+<h2 class="title">About Us</h2>
+<div class="card"><div class="card-content">
+<p>
+ALULA1T is a simple tourism blog about AlUla, Saudi Arabia. We share useful information about historical sites,
+natural landmarks, travel tips, and suggested plans for visitors. We also provide private tours based on the visitor’s schedule and interests.
+</p>
+</div></div>
 </div>
 
-</div>
 </div>
 </section>
 
 <section class="section" id="places">
 <div class="container">
-<h2 class="title">أشهر معالم العلا</h2>
+<h2 class="title" data-ar="أشهر معالم العلا" data-en="Top Attractions in AlUla">أشهر معالم العلا</h2>
+
 <div class="cards">
 
 <div class="card">
-<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3826.jpeg" alt="الحجر">
+<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3826.jpeg" alt="Hegra AlUla">
 <div class="card-content">
-<h3>الحِجر</h3>
-<p>موقع أثري بارز وواحد من أهم معالم العلا التاريخية.</p>
+<h3 data-ar="الحِجر" data-en="Hegra">الحِجر</h3>
+<p data-ar="موقع أثري مهم وواحد من أبرز معالم العلا التاريخية." data-en="An important archaeological site and one of the most famous historical landmarks in AlUla.">موقع أثري مهم وواحد من أبرز معالم العلا التاريخية.</p>
 </div>
 </div>
 
 <div class="card">
-<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3675.jpeg" alt="جبل الفيل">
+<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3675.jpeg" alt="Elephant Rock">
 <div class="card-content">
-<h3>جبل الفيل</h3>
-<p>تكوين صخري طبيعي فريد ومناسب للتصوير وقت الغروب.</p>
+<h3 data-ar="جبل الفيل" data-en="Elephant Rock">جبل الفيل</h3>
+<p data-ar="تكوين صخري طبيعي جميل ومناسب للتصوير خاصة وقت الغروب." data-en="A beautiful natural rock formation, perfect for photos especially around sunset.">تكوين صخري طبيعي جميل ومناسب للتصوير خاصة وقت الغروب.</p>
 </div>
 </div>
 
 <div class="card">
-<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3827.png" alt="البلدة القديمة">
+<img src="https://salehh131-stack.github.io/1AlulA1/IMG_3827.png" alt="Old Town AlUla">
 <div class="card-content">
-<h3>البلدة القديمة</h3>
-<p>أزقة وأسواق تراثية وتجربة هادئة وسط العلا.</p>
+<h3 data-ar="البلدة القديمة" data-en="Old Town">البلدة القديمة</h3>
+<p data-ar="منطقة تراثية تضم أزقة وأسواقًا قديمة وتجربة هادئة وسط العلا." data-en="A heritage area with old alleys, traditional markets, and a calm cultural atmosphere.">منطقة تراثية تضم أزقة وأسواقًا قديمة وتجربة هادئة وسط العلا.</p>
 </div>
 </div>
 
 <div class="card">
-<img src="https://salehh131-stack.github.io/1AlulA1/IMG_4080.jpeg" alt="قاعة مرايا">
+<img src="https://salehh131-stack.github.io/1AlulA1/IMG_4080.jpeg" alt="Maraya AlUla">
 <div class="card-content">
-<h3>قاعة مرايا</h3>
-<p>معلم حديث يتميز بتصميم عاكس ينسجم مع طبيعة العلا.</p>
+<h3 data-ar="قاعة مرايا" data-en="Maraya">قاعة مرايا</h3>
+<p data-ar="معلم حديث بتصميم عاكس ينسجم مع طبيعة وجبال العلا." data-en="A modern mirrored landmark that blends beautifully with AlUla’s desert landscape.">معلم حديث بتصميم عاكس ينسجم مع طبيعة وجبال العلا.</p>
 </div>
 </div>
 
@@ -167,27 +162,36 @@ footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin
 </section>
 
 <div class="container">
-<div class="adbox">مساحة إعلانات Google AdSense بعد الموافقة</div>
+<div class="info-box" data-ar="مقالات ونصائح سياحية عن العلا يتم تحديثها باستمرار" data-en="Travel articles and tips about AlUla are updated regularly">
+مقالات ونصائح سياحية عن العلا يتم تحديثها باستمرار
+</div>
 </div>
 
 <section class="section" id="blog">
 <div class="container">
-<h2 class="title">مدونة العلا</h2>
+<h2 class="title" data-ar="مدونة العلا" data-en="AlUla Blog">مدونة العلا</h2>
+
 <div class="cards">
 
 <div class="card"><div class="card-content">
-<h3>أفضل وقت لزيارة العلا</h3>
-<p>الشتاء والربيع من أفضل المواسم لزيارة العلا بسبب اعتدال الأجواء وسهولة التنقل.</p>
+<h3 data-ar="أفضل وقت لزيارة العلا" data-en="Best Time to Visit AlUla">أفضل وقت لزيارة العلا</h3>
+<p data-ar="تعد أشهر الشتاء والربيع من أفضل الأوقات لزيارة العلا بسبب اعتدال الأجواء وسهولة التنقل بين المواقع السياحية. يفضل الزوار اختيار أوقات الصباح أو ما قبل الغروب للاستمتاع بالمناظر الطبيعية والتصوير." data-en="Winter and spring are among the best times to visit AlUla because the weather is pleasant and outdoor movement is easier. Morning and sunset hours are ideal for sightseeing and photography.">
+تعد أشهر الشتاء والربيع من أفضل الأوقات لزيارة العلا بسبب اعتدال الأجواء وسهولة التنقل بين المواقع السياحية.
+</p>
 </div></div>
 
 <div class="card"><div class="card-content">
-<h3>برنامج 3 أيام في العلا</h3>
-<p>يمكن تخصيص يوم للبلدة القديمة وجبل الفيل، ويوم للحِجر، ويوم لقاعة مرايا والتجارب المحلية.</p>
+<h3 data-ar="برنامج 3 أيام في العلا" data-en="Three-Day Plan in AlUla">برنامج 3 أيام في العلا</h3>
+<p data-ar="يمكن تخصيص اليوم الأول للبلدة القديمة وجبل الفيل، واليوم الثاني للحِجر والمواقع التاريخية، واليوم الثالث لقاعة مرايا والتجارب المحلية والمطلات الطبيعية حسب وقت الزائر." data-en="A three-day visit can include Old Town and Elephant Rock on the first day, Hegra and historical sites on the second day, and Maraya with local experiences and viewpoints on the third day.">
+يمكن تخصيص اليوم الأول للبلدة القديمة وجبل الفيل، واليوم الثاني للحِجر، واليوم الثالث لقاعة مرايا والتجارب المحلية.
+</p>
 </div></div>
 
 <div class="card"><div class="card-content">
-<h3>نصائح قبل الزيارة</h3>
-<p>احجز مبكرًا، اختر أوقات الصباح أو الغروب، واحمل معك الماء والكاميرا.</p>
+<h3 data-ar="نصائح قبل الزيارة" data-en="Travel Tips Before Visiting">نصائح قبل الزيارة</h3>
+<p data-ar="ينصح بالحجز المبكر خاصة في المواسم، وارتداء ملابس مريحة، وحمل الماء والكاميرا. كما يفضل تنسيق الجولة مسبقًا لتوفير الوقت وزيارة أكبر عدد من المواقع بطريقة مرتبة." data-en="It is recommended to book early during busy seasons, wear comfortable clothes, carry water and a camera, and plan the tour in advance to save time and visit more places comfortably.">
+ينصح بالحجز المبكر، وارتداء ملابس مريحة، وحمل الماء والكاميرا، وتنسيق الجولة مسبقًا.
+</p>
 </div></div>
 
 </div>
@@ -196,43 +200,62 @@ footer{background:#11100e;color:white;text-align:center;padding:30px 15px;margin
 
 <section class="section" id="contact">
 <div class="container">
-<h2 class="title">تواصل وحجز</h2>
+<h2 class="title" data-ar="تواصل وحجز" data-en="Contact and Booking">تواصل وحجز</h2>
 <div class="card">
 <div class="card-content" style="text-align:center">
-<h3>احجز جولتك الآن</h3>
-<p>للحجز والاستفسار عن الجولات السياحية في العلا، تواصل عبر واتساب.</p>
-<a class="btn green" href="https://wa.me/966559094784" target="_blank">فتح واتساب</a>
+<h3 data-ar="احجز جولتك الآن" data-en="Book Your Tour Now">احجز جولتك الآن</h3>
+<p data-ar="للحجز والاستفسار عن الجولات السياحية في العلا، تواصل معنا عبر واتساب." data-en="For booking and inquiries about private tours in AlUla, contact us through WhatsApp.">
+للحجز والاستفسار عن الجولات السياحية في العلا، تواصل معنا عبر واتساب.
+</p>
+<a class="btn green" href="https://wa.me/966559094784" target="_blank" data-ar="فتح واتساب" data-en="Open WhatsApp">فتح واتساب</a>
 </div>
 </div>
 </div>
 </section>
 
-<section class="section">
+<section class="section" id="privacy">
 <div class="container">
 <div class="card">
 <div class="card-content">
-<h3>سياسة الخصوصية</h3>
-<p>نحترم خصوصية الزوار ولا نجمع بيانات شخصية إلا عند التواصل معنا طوعًا للحجز أو الاستفسار.</p>
-<h3>شروط الاستخدام</h3>
-<p>المحتوى للتعريف بالسياحة في العلا، وقد تختلف الأسعار والمواعيد حسب الموسم والتوفر.</p>
+<h3 data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</h3>
+<p data-ar="نحترم خصوصية الزوار، ولا نجمع بيانات شخصية إلا عند التواصل معنا طوعًا للحجز أو الاستفسار. قد يستخدم الموقع خدمات Google AdSense بعد الموافقة لعرض الإعلانات وفق سياسات Google." data-en="We respect visitor privacy and do not collect personal data unless visitors contact us voluntarily for booking or inquiries. The website may use Google AdSense after approval to display ads according to Google policies.">
+نحترم خصوصية الزوار، ولا نجمع بيانات شخصية إلا عند التواصل معنا طوعًا للحجز أو الاستفسار.
+</p>
+
+<h3 data-ar="شروط الاستخدام" data-en="Terms of Use">شروط الاستخدام</h3>
+<p data-ar="المحتوى المنشور في الموقع للتعريف بالسياحة في العلا، وقد تختلف الأسعار والمواعيد حسب الموسم والتوفر. ينصح بالتواصل المباشر قبل تأكيد أي حجز." data-en="The content on this website is for tourism information about AlUla. Prices and schedules may vary depending on season and availability. Visitors should contact us directly before confirming any booking.">
+المحتوى المنشور في الموقع للتعريف بالسياحة في العلا، وقد تختلف الأسعار والمواعيد حسب الموسم والتوفر.
+</p>
 </div>
 </div>
 </div>
 </section>
 
-<a class="whatsapp" href="https://wa.me/966559094784" target="_blank">واتساب</a>
+<a class="whatsapp" href="https://wa.me/966559094784" target="_blank" data-ar="واتساب" data-en="WhatsApp">واتساب</a>
 
 <footer>
-<p>© 2026 ALULA1T - جميع الحقوق محفوظة</p>
-<p>مدونة سياحية وعروض جولات خاصة في العلا</p>
+<p>© 2026 ALULA1T - All Rights Reserved</p>
+<p data-ar="مدونة سياحية وجولات خاصة في العلا" data-en="Travel blog and private tours in AlUla">مدونة سياحية وجولات خاصة في العلا</p>
 </footer>
 
 <script>
 function setLang(lang){
-document.querySelectorAll('.lang-content').forEach(e=>e.classList.remove('active'));
-document.getElementById(lang).classList.add('active');
-document.documentElement.lang=lang;
-document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+
+  document.querySelectorAll('.lang-content').forEach(function(el){
+    el.classList.remove('active');
+  });
+
+  var sections = ['hero','about'];
+  sections.forEach(function(section){
+    var element = document.getElementById(section + '-' + lang);
+    if(element){ element.classList.add('active'); }
+  });
+
+  document.querySelectorAll('[data-ar]').forEach(function(el){
+    el.textContent = el.getAttribute('data-' + lang);
+  });
 }
 </script>
 
