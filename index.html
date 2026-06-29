@@ -128,3 +128,134 @@
 </div>
 
 </section>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALULA1T | Discover AlUla</title>
+<meta name="description" content="جولات سياحية خاصة في العلا مع مرشد سياحي محلي ونقل من وإلى مطار العلا.">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+<div class="container nav">
+<a href="index.html" class="brand">
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+<span>ALULA1T</span>
+</a>
+
+<nav class="menu">
+<a href="index.html">الرئيسية</a>
+<a href="tours.html">الجولات</a>
+<a href="blog.html">المدونة</a>
+</nav>
+
+<div class="langs">
+<button onclick="setLang('ar')">AR</button>
+<button onclick="setLang('en')">EN</button>
+</div>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-box">
+<h1 data-ar="اكتشف سحر العلا" data-en="Discover the Magic of AlUla">اكتشف سحر العلا</h1>
+<p data-ar="Discover AlUla" data-en="اكتشف العلا">Discover AlUla</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="section-title">خدماتنا</h2>
+
+<div class="cards">
+<div class="card">
+<img src="IMG_3857.png" alt="جولات خاصة في العلا">
+<div class="card-content">
+<h3>جولات خاصة</h3>
+<p>برامج سياحية خاصة داخل العلا تناسب الأفراد والعائلات والمجموعات.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_3862.png" alt="مرشد سياحي في العلا">
+<div class="card-content">
+<h3>مرشد سياحي محلي</h3>
+<p>مرشد سياحي يعرف المعالم وأفضل أوقات الزيارة والتصوير.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4080.jpeg" alt="النقل من وإلى مطار العلا">
+<div class="card-content">
+<h3>النقل من وإلى المطار</h3>
+<p>استقبال وتوصيل من وإلى مطار العلا بسيارات مريحة.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section light">
+<div class="container">
+<h2 class="section-title">أبرز معالم العلا</h2>
+
+<div class="cards">
+<div class="card">
+<img src="IMG_4078.png" alt="الحجر">
+<div class="card-content">
+<h3>الحِجر</h3>
+<p>موقع أثري بارز ومن أشهر معالم العلا التاريخية.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4077.png" alt="جبل الفيل">
+<div class="card-content">
+<h3>جبل الفيل</h3>
+<p>تكوين صخري طبيعي شهير ومناسب للتصوير وقت الغروب.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="IMG_4079.png" alt="البلدة القديمة">
+<div class="card-content">
+<h3>البلدة القديمة</h3>
+<p>أسواق وأزقة تراثية تعكس روح العلا القديمة.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container center">
+<h2 class="section-title">احجز رحلتك الآن</h2>
+<p class="lead">للحجز أو الاستفسار عن الجولات والنقل من وإلى المطار، تواصل معنا عبر واتساب.</p>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 ALULA1T</p>
+<p>Private Tours • Local Guide • Airport Transfer</p>
+</div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/966559094784" target="_blank">احجز الآن</a>
+
+<script>
+function setLang(lang){
+document.documentElement.lang=lang;
+document.documentElement.dir=lang==="ar"?"rtl":"ltr";
+document.querySelectorAll("[data-"+lang+"]").forEach(function(el){
+el.textContent=el.getAttribute("data-"+lang);
+});
+}
+</script>
+
+</body>
+</html>
