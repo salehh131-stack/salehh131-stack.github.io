@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>مدونة العلا | ALULA1T</title>
+
+<meta name="description" content="مدونة متخصصة عن العلا، معالمها، تاريخها، المنتجعات، الجولات السياحية، وأسواق الحرف اليدوية.">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container nav">
+
+<a class="brand" href="index.html">
+
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+
+<span>ALULA1T</span>
+
+</a>
+
+<nav class="menu">
+
+<a href="index.html">الرئيسية</a>
+
+<a href="tours.html">الجولات</a>
+
+<a href="blog.html">المدونة</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<div class="container">
+
+<h1 class="section-title">
+
+مدونة العلا
+
+</h1>
+
+<p class="lead">
+
+كل ما تحتاج معرفته عن العلا، تاريخها، طبيعتها، معالمها، وأفضل الأنشطة السياحية.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section light">
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+
+<img src="IMG_4078.png" alt="الحجر">
+
+<div class="card-content">
+
+<h3>مدينة الحِجر</h3>
+
+<p>
+
+تعد مدينة الحِجر أول موقع سعودي يُدرج ضمن قائمة التراث العالمي لليونسكو، وتضم أكثر من مئة مقبرة نبطية منحوتة في الصخور، وتعتبر من أهم المواقع الأثرية في الشرق الأوسط.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="IMG_4077.png" alt="جبل الفيل">
+
+<div class="card-content">
+
+<h3>جبل الفيل</h3>
+
+<p>
+
+يعتبر جبل الفيل من أشهر المعالم الطبيعية في العلا، ويتميز بتكوين صخري ضخم يشبه الفيل، ويعد من أفضل أماكن مشاهدة غروب الشمس.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="IMG_4080.jpeg" alt="مرايا">
+
+<div class="card-content">
+
+<h3>قاعة مرايا</h3>
+
+<p>
+
+قاعة مرايا أكبر مبنى مغطى بالمرايا في العالم، وتستضيف حفلات موسيقية وفعاليات عالمية وسط الطبيعة الصحراوية.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="IMG_4079.png" alt="البلدة القديمة">
+
+<div class="card-content">
+
+<h3>البلدة القديمة</h3>
+
+<p>
+
+تتميز البلدة القديمة بأزقتها التاريخية وأسواقها التراثية والمقاهي والمطاعم المحلية التي تعكس ثقافة العلا.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+
+أين تقع العلا؟
+
+</h2>
+
+<p class="lead">
+
+تقع محافظة العلا في شمال غرب المملكة العربية السعودية ضمن منطقة المدينة المنورة، وتبعد حوالي 300 كيلومتر شمال المدينة المنورة، وتحيط بها الجبال والواحات والتكوينات الصخرية الفريدة.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+أفضل المنتجعات
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="card-content">
+
+<h3>Banyan Tree AlUla</h3>
+
+<p>
+
+منتجع فاخر يقدم تجربة إقامة مميزة وسط الطبيعة الصحراوية.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card-content">
+
+<h3>Our Habitas AlUla</h3>
+
+<p>
+
+منتجع عالمي يوفر أنشطة صحراوية وإقامة فاخرة.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card-content">
+
+<h3>Shaden Resort</h3>
+
+<p>
+
+منتجع هادئ بإطلالات رائعة على جبال العلا.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+
+أسواق الحرف اليدوية
+
+</h2>
+
+<p class="lead">
+
+يمكن للزوار التجول في سوق البلدة القديمة والاستمتاع بشراء الحرف اليدوية والهدايا التذكارية والمنتجات المحلية التي تعكس تراث العلا.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+أفضل وقت لزيارة العلا
+
+</h2>
+
+<p class="lead">
+
+يعد فصل الشتاء من أفضل مواسم زيارة العلا، حيث تكون درجات الحرارة معتدلة، وتقام العديد من الفعاليات والمهرجانات والأنشطة السياحية.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<p>
+
+© 2026 ALULA1T
+
+</p>
+
+<p>
+
+مدونة سياحية عن العلا
+
+</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
