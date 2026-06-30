@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ALULA1T | اكتشف العلا</title>
-<meta name="description" content="اكتشف العلا مع ALULA1T: جولات سياحية، مرشد محلي، النقل من وإلى مطار العلا، ومعالم تاريخية وطبيعية.">
+<meta name="description" content="اكتشف العلا مع ALULA1T: جولات سياحية، مرشد محلي، استقبال من وإلى مطار العلا، ومعالم تاريخية وطبيعية.">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,6 +23,8 @@
 <a href="blog.html">المدونة</a>
 <a href="#contact">تواصل</a>
 </nav>
+
+<div id="google_translate_element"></div>
 </div>
 </header>
 
@@ -42,9 +44,28 @@
 <h2>خدماتنا</h2>
 
 <div class="cards text-only">
-<div class="card"><div class="card-content"><h3>النقل من وإلى مطار العلا</h3><p>استقبال وتوصيل من وإلى مطار العلا براحة وخصوصية.</p></div></div>
-<div class="card"><div class="card-content"><h3>مرشد سياحي محلي</h3><p>جولات خاصة مع مرشد يعرف تاريخ العلا وأفضل معالمها.</p></div></div>
-<div class="card"><div class="card-content"><h3>جولات وتجارب</h3><p>برامج سياحية مرنة تناسب الأفراد والعائلات والمجموعات.</p></div></div>
+
+<div class="card">
+<div class="card-content">
+<h3>استقبال من وإلى مطار العلا</h3>
+<p>خدمة استقبال وتوصيل من وإلى مطار العلا حسب وقت الرحلة، براحة وخصوصية.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>مرشد سياحي محلي</h3>
+<p>جولات خاصة مع مرشد يعرف تاريخ العلا، المعالم، وأفضل أوقات الزيارة.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>تجربة البقي الرملية</h3>
+<p>تجربة صحراوية ممتعة بين جبال ورمال العلا، ويمكن إضافتها حسب رغبة الزائر.</p>
+</div>
+</div>
+
 </div>
 </div>
 </section>
@@ -54,12 +75,13 @@
 <h2>أبرز معالم العلا</h2>
 
 <div class="gallery">
-<div class="gallery-item"><img src="IMG_4078.png" alt="الحجر"><span>الحِجر</span></div>
+<div class="gallery-item"><img src="IMG_4078.png" alt="الحِجر"><span>الحِجر</span></div>
 <div class="gallery-item"><img src="IMG_4077.png" alt="جبل الفيل"><span>جبل الفيل</span></div>
 <div class="gallery-item"><img src="IMG_4080.jpeg" alt="قاعة مرايا"><span>قاعة مرايا</span></div>
 <div class="gallery-item"><img src="IMG_4079.png" alt="البلدة القديمة"><span>البلدة القديمة</span></div>
 <div class="gallery-item"><img src="IMG_3862.png" alt="مطل الحرة"><span>مطل الحرة</span></div>
 </div>
+
 </div>
 </section>
 
@@ -68,9 +90,28 @@
 <h2>من المدونة</h2>
 
 <div class="cards text-only">
-<a class="card" href="blog.html"><div class="card-content"><h3>أين تقع العلا؟</h3><p>تعرف على موقع العلا وأهميتها السياحية في المملكة.</p></div></a>
-<a class="card" href="blog.html"><div class="card-content"><h3>أفضل المنتجعات</h3><p>أسماء المنتجعات والإقامات المميزة في العلا بدون صور مكررة.</p></div></a>
-<a class="card" href="blog.html"><div class="card-content"><h3>أسواق الحرف اليدوية</h3><p>منتجات محلية وهدايا تراثية من قلب العلا.</p></div></a>
+
+<a class="card" href="blog.html">
+<div class="card-content">
+<h3>أين تقع العلا؟</h3>
+<p>تعرف على موقع العلا الجغرافي وأهميتها السياحية في المملكة.</p>
+</div>
+</a>
+
+<a class="card" href="blog.html">
+<div class="card-content">
+<h3>منتجعات العلا</h3>
+<p>أسماء المنتجعات والإقامات المميزة في العلا بدون تكرار صور.</p>
+</div>
+</a>
+
+<a class="card" href="blog.html">
+<div class="card-content">
+<h3>أسواق الحرف اليدوية</h3>
+<p>منتجات محلية وهدايا تراثية من قلب البلدة القديمة.</p>
+</div>
+</a>
+
 </div>
 </div>
 </section>
@@ -88,12 +129,41 @@
 </section>
 
 <footer>
-<div class="container">
+<div class="container footer-grid">
+
+<div>
 <h3>ALULA1T</h3>
-<p>اكتشف العلا مع جولات سياحية خاصة، مرشد سياحي محلي، والنقل من وإلى مطار العلا.</p>
-<p>© 2026 ALULA1T - جميع الحقوق محفوظة</p>
+<p>جولات سياحية خاصة في العلا مع مرشد سياحي محلي، واستقبال من وإلى مطار العلا.</p>
 </div>
+
+<div>
+<h3>روابط</h3>
+<p><a href="index.html">الرئيسية</a></p>
+<p><a href="tours.html">الجولات</a></p>
+<p><a href="blog.html">المدونة</a></p>
+</div>
+
+<div>
+<h3>العلا</h3>
+<p>المملكة العربية السعودية</p>
+<p>منطقة المدينة المنورة</p>
+</div>
+
+</div>
+
+<p class="copyright">© 2026 ALULA1T - جميع الحقوق محفوظة</p>
 </footer>
+
+<script>
+function googleTranslateElementInit(){
+new google.translate.TranslateElement({
+pageLanguage:'ar',
+includedLanguages:'ar,en,zh-CN,fr,es,de,ru,ur,tr,id,ja,ko',
+layout:google.translate.TranslateElement.InlineLayout.SIMPLE
+}, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
