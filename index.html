@@ -1,11 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ALULA1T | اكتشف العلا</title>
+
 <meta name="description" content="اكتشف العلا مع ALULA1T: جولات سياحية، استقبال من وإلى مطار العلا، مرشد سياحي محلي، وأبرز معالم العلا.">
+
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,18 +16,21 @@
 
 <header class="site-header">
   <div class="container nav">
+
     <a href="index.html" class="brand">
       <img src="IMG_4136.jpeg" alt="ALULA1T Logo">
       <span>ALULA1T</span>
     </a>
 
     <nav class="menu">
-      <a href="index.html">الرئيسية</a>
-      <a href="blog.html">المدونة</a>
-      <a href="tours.html">الجولات</a>
-      <a href="resorts.html">أفضل المنتجعات</a>
-      <a href="contact.html">تواصل</a>
+      <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a>
+      <a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a>
+      <a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a>
+      <a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a>
+      <button class="lang-btn" onclick="toggleLang()">EN</button>
     </nav>
+
   </div>
 </header>
 
@@ -34,143 +40,373 @@
 
 <section class="discover">
   <div class="discover-box">
-    <h1>اكتشف العلا</h1>
-    <p>Discover AlUla</p>
-    <small>رحلة هادئة بين التاريخ والطبيعة</small>
+    <h1 data-ar="اكتشف العلا" data-en="Discover AlUla">اكتشف العلا</h1>
+    <p data-ar="Discover AlUla" data-en="اكتشف العلا">Discover AlUla</p>
+    <small data-ar="رحلة هادئة بين التاريخ والطبيعة" data-en="A calm journey through history and nature">
+      رحلة هادئة بين التاريخ والطبيعة
+    </small>
   </div>
 </section>
-
 <section class="section">
-  <div class="container">
-    <h2 class="section-title">خدماتنا</h2>
 
-    <div class="cards text-only">
-      <div class="card">
-        <div class="card-content">
-          <h3>استقبال من وإلى مطار العلا</h3>
-          <p>خدمة استقبال وتوصيل حسب وقت الرحلة براحة وخصوصية.</p>
-        </div>
-      </div>
+<div class="container">
 
-      <div class="card">
-        <div class="card-content">
-          <h3>مرشد سياحي محلي</h3>
-          <p>جولات خاصة مع مرشد يعرف تاريخ العلا وأفضل أوقات الزيارة.</p>
-        </div>
-      </div>
+<h2 class="section-title"
+data-ar="خدماتنا"
+data-en="Our Services">
+خدماتنا
+</h2>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>جولات سياحية خاصة</h3>
-          <p>برامج مرنة تناسب الأفراد والعائلات والمجموعات.</p>
-        </div>
-      </div>
+<p class="lead"
+data-ar="نقدم خدمات سياحية خاصة لتجعل زيارتك للعلا أكثر راحة ومتعة."
+data-en="Private tourism services to make your visit to AlUla comfortable and memorable.">
+نقدم خدمات سياحية خاصة لتجعل زيارتك للعلا أكثر راحة ومتعة.
+</p>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>تجربة البقي الرملية</h3>
-          <p>تجربة صحراوية ممتعة يمكن إضافتها حسب رغبة الزائر.</p>
-        </div>
-      </div>
+<div class="cards text-only">
 
-      <div class="card">
-        <div class="card-content">
-          <h3>برامج مرنة حسب الطلب</h3>
-          <p>تصميم برنامج سياحي حسب مدة الإقامة واهتمامات الزائر.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="card">
+<div class="card-content">
+<h3 data-ar="استقبال من وإلى مطار العلا"
+data-en="Airport Transfer">
+استقبال من وإلى مطار العلا
+</h3>
+
+<p
+data-ar="خدمة استقبال وتوصيل خاصة حسب موعد الرحلة."
+data-en="Private airport pickup and drop-off service.">
+خدمة استقبال وتوصيل خاصة حسب موعد الرحلة.
+</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3
+data-ar="مرشد سياحي محلي"
+data-en="Local Tour Guide">
+مرشد سياحي محلي
+</h3>
+
+<p
+data-ar="مرشد يعرف أفضل المواقع السياحية في العلا."
+data-en="Experienced local guide to the best attractions in AlUla.">
+مرشد يعرف أفضل المواقع السياحية في العلا.
+</p>
+
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+
+<h3
+data-ar="جولات سياحية خاصة"
+data-en="Private Tours">
+جولات سياحية خاصة
+</h3>
+
+<p
+data-ar="برامج مرنة تناسب جميع الزوار."
+data-en="Flexible tour programs for every visitor.">
+برامج مرنة تناسب جميع الزوار.
+</p>
+
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+
+<h3
+data-ar="تجربة البقي الرملية"
+data-en="Buggy Adventure">
+تجربة البقي الرملية
+</h3>
+
+<p
+data-ar="استمتع بقيادة البقي وسط الكثبان الرملية."
+data-en="Enjoy an exciting buggy ride through the desert dunes.">
+استمتع بقيادة البقي وسط الكثبان الرملية.
+</p>
+
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+
+<h3
+data-ar="برامج مرنة حسب الطلب"
+data-en="Custom Programs">
+برامج مرنة حسب الطلب
+</h3>
+
+<p
+data-ar="نصمم رحلتك حسب عدد الأيام والاهتمامات."
+data-en="Customized itineraries based on your schedule and interests.">
+نصمم رحلتك حسب عدد الأيام والاهتمامات.
+</p>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
 </section>
-
 <section class="section soft">
-  <div class="container">
-    <h2 class="section-title">أبرز معالم العلا</h2>
-    <p class="lead">استكشف أشهر الوجهات التي تميز العلا.</p>
 
-    <div class="gallery">
-      <a class="gallery-item" href="blog.html">
-        <img src="IMG_4078.png" alt="الحِجر">
-        <span>الحِجر</span>
-      </a>
+<div class="container">
 
-      <a class="gallery-item" href="blog.html">
-        <img src="IMG_4077.png" alt="جبل الفيل">
-        <span>جبل الفيل</span>
-      </a>
+<h2 class="section-title"
+data-ar="أبرز معالم العلا"
+data-en="Top Attractions">
+أبرز معالم العلا
+</h2>
 
-      <a class="gallery-item" href="blog.html">
-        <img src="IMG_4080.jpeg" alt="قاعة مرايا">
-        <span>قاعة مرايا</span>
-      </a>
+<p class="lead"
+data-ar="استكشف أشهر الأماكن التي تميز العلا بتاريخها وطبيعتها."
+data-en="Explore AlUla's most famous landmarks and natural wonders.">
+استكشف أشهر الأماكن التي تميز العلا بتاريخها وطبيعتها.
+</p>
 
-      <a class="gallery-item" href="blog.html">
-        <img src="IMG_4079.png" alt="البلدة القديمة">
-        <span>البلدة القديمة</span>
-      </a>
+<div class="gallery">
 
-      <a class="gallery-item" href="blog.html">
-        <img src="IMG_3862.png" alt="مطل الحرة">
-        <span>مطل الحرة</span>
-      </a>
-    </div>
+<div class="gallery-item">
+<img src="IMG_4078.png" alt="الحِجر">
+<span data-ar="الحِجر" data-en="Hegra">الحِجر</span>
+</div>
 
-    <div class="cards text-only extra-places">
-      <div class="card">
-        <div class="card-content">
-          <h3>☕ كوفي شلال الجبلي</h3>
-          <p>مكان مميز للاستراحة والاستمتاع بأجواء العلا الطبيعية.</p>
-        </div>
-      </div>
+<div class="gallery-item">
+<img src="IMG_4077.png" alt="جبل الفيل">
+<span data-ar="جبل الفيل" data-en="Elephant Rock">جبل الفيل</span>
+</div>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>🪨 صخرة الوجه الحزين</h3>
-          <p>تشكيل صخري طبيعي يلفت الزوار ومحبي التصوير.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="gallery-item">
+<img src="IMG_4080.jpeg" alt="قاعة مرايا">
+<span data-ar="قاعة مرايا" data-en="Maraya">قاعة مرايا</span>
+</div>
+
+<div class="gallery-item">
+<img src="IMG_4079.png" alt="البلدة القديمة">
+<span data-ar="البلدة القديمة" data-en="Old Town">البلدة القديمة</span>
+</div>
+
+<div class="gallery-item">
+<img src="IMG_3862.png" alt="مطل الحرة">
+<span data-ar="مطل الحرة" data-en="Al Harrah Viewpoint">مطل الحرة</span>
+</div>
+
+</div>
+
+<br>
+
+<div class="cards text-only">
+
+<div class="card">
+
+<div class="card-content">
+
+<h3
+data-ar="☕ كوفي شلال الجبلي"
+data-en="☕ Mountain Waterfall Cafe">
+☕ كوفي شلال الجبلي
+</h3>
+
+<p
+data-ar="مكان مميز للاستراحة والاستمتاع بالأجواء الطبيعية في العلا."
+data-en="A peaceful café surrounded by the natural beauty of AlUla.">
+مكان مميز للاستراحة والاستمتاع بالأجواء الطبيعية في العلا.
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card-content">
+
+<h3
+data-ar="🪨 صخرة الوجه الحزين"
+data-en="🪨 Sad Face Rock">
+🪨 صخرة الوجه الحزين
+</h3>
+
+<p
+data-ar="تشكيل صخري طبيعي يلفت الأنظار ويعد من الأماكن المميزة للتصوير."
+data-en="A unique rock formation popular with visitors and photographers.">
+تشكيل صخري طبيعي يلفت الأنظار ويعد من الأماكن المميزة للتصوير.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section class="section">
-  <div class="container center">
-    <h2 class="section-title">استكشف المزيد</h2>
-    <p class="lead">تعرف على المدونة والجولات وأفضل المنتجعات في العلا.</p>
 
-    <div class="page-links">
-      <a href="blog.html">المدونة</a>
-      <a href="tours.html">الجولات</a>
-      <a href="resorts.html">أفضل المنتجعات</a>
-    </div>
-  </div>
+<div class="container center">
+
+<h2 class="section-title"
+data-ar="استكشف المزيد"
+data-en="Explore More">
+استكشف المزيد
+</h2>
+
+<div class="page-links">
+
+<a href="blog.html"
+data-ar="المدونة"
+data-en="Blog">
+المدونة
+</a>
+
+<a href="tours.html"
+data-ar="الجولات"
+data-en="Tours">
+الجولات
+</a>
+
+<a href="resorts.html"
+data-ar="أفضل المنتجعات"
+data-en="Top Resorts">
+أفضل المنتجعات
+</a>
+
+</div>
+
+</div>
+
 </section>
-
 <footer>
-  <div class="container footer-grid">
-    <div>
-      <h3>ALULA1T</h3>
-      <p>جولات سياحية خاصة في العلا مع مرشد سياحي محلي.</p>
-    </div>
 
-    <div>
-      <h3>روابط</h3>
-      <p><a href="index.html">الرئيسية</a></p>
-      <p><a href="blog.html">المدونة</a></p>
-      <p><a href="tours.html">الجولات</a></p>
-      <p><a href="resorts.html">أفضل المنتجعات</a></p>
-      <p><a href="contact.html">تواصل</a></p>
-    </div>
+<div class="container footer-grid">
 
-    <div>
-      <h3>العلا</h3>
-      <p>المملكة العربية السعودية</p>
-      <p>منطقة المدينة المنورة</p>
-    </div>
-  </div>
+<div>
 
-  <p class="copyright">© 2026 ALULA1T - جميع الحقوق محفوظة</p>
+<h3>ALULA1T</h3>
+
+<p
+data-ar="اكتشف العلا مع جولات خاصة وتجارب سياحية مميزة."
+data-en="Discover AlUla with private tours and unique experiences.">
+اكتشف العلا مع جولات خاصة وتجارب سياحية مميزة.
+</p>
+
+</div>
+
+<div>
+
+<h3
+data-ar="روابط سريعة"
+data-en="Quick Links">
+روابط سريعة
+</h3>
+
+<p><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></p>
+
+<p><a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a></p>
+
+<p><a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a></p>
+
+<p><a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a></p>
+
+<p><a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a></p>
+
+</div>
+
+<div>
+
+<h3
+data-ar="العلا"
+data-en="AlUla">
+العلا
+</h3>
+
+<p
+data-ar="المملكة العربية السعودية"
+data-en="Saudi Arabia">
+المملكة العربية السعودية
+</p>
+
+</div>
+
+</div>
+
+<div class="container" style="margin-top:25px;text-align:center;">
+
+<p>
+
+<a href="privacy.html"
+data-ar="سياسة الخصوصية"
+data-en="Privacy Policy">
+سياسة الخصوصية
+</a>
+
+&nbsp; | &nbsp;
+
+<a href="terms.html"
+data-ar="الشروط والأحكام"
+data-en="Terms & Conditions">
+الشروط والأحكام
+</a>
+
+</p>
+
+</div>
+
+<p class="copyright">
+
+© 2026 ALULA1T
+
+</p>
+
 </footer>
 
+<script>
+
+let currentLang = localStorage.getItem("lang") || "ar";
+
+function applyLang(){
+
+document.documentElement.lang=currentLang;
+
+document.documentElement.dir=currentLang==="ar"?"rtl":"ltr";
+
+document.querySelectorAll("[data-ar]").forEach(el=>{
+
+el.textContent=currentLang==="ar"
+?el.dataset.ar
+:el.dataset.en;
+
+});
+
+document.querySelector(".lang-btn").textContent=
+currentLang==="ar"?"EN":"AR";
+
+}
+
+function toggleLang(){
+
+currentLang=currentLang==="ar"?"en":"ar";
+
+localStorage.setItem("lang",currentLang);
+
+applyLang();
+
+}
+
+applyLang();
+
+</script>
+
 </body>
+
 </html>
