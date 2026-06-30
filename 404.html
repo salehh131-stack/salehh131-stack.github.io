@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>404 | الصفحة غير موجودة</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container nav">
+
+<a href="index.html" class="brand">
+
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+
+<span>ALULA1T</span>
+
+</a>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<div class="container center">
+
+<h1 class="section-title"
+data-ar="404"
+data-en="404">
+404
+</h1>
+
+<p class="lead"
+data-ar="عذراً، الصفحة التي تبحث عنها غير موجودة."
+data-en="Sorry, the page you are looking for could not be found.">
+عذراً، الصفحة التي تبحث عنها غير موجودة.
+</p>
+
+<div class="page-links">
+
+<a href="index.html"
+class="btn"
+data-ar="العودة للرئيسية"
+data-en="Back to Home">
+العودة للرئيسية
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+
+<h3>ALULA1T</h3>
+
+<p
+data-ar="اكتشف العلا مع أفضل الجولات السياحية."
+data-en="Discover AlUla with the best private tours.">
+اكتشف العلا مع أفضل الجولات السياحية.
+</p>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 ALULA1T
+
+</p>
+
+</footer>
+
+<script>
+
+let currentLang=localStorage.getItem("lang")||"ar";
+
+function applyLang(){
+
+document.documentElement.lang=currentLang;
+document.documentElement.dir=currentLang==="ar"?"rtl":"ltr";
+
+document.querySelectorAll("[data-ar]").forEach(el=>{
+
+el.textContent=currentLang==="ar"
+?el.dataset.ar
+:el.dataset.en;
+
+});
+
+}
+
+applyLang();
+
+</script>
+
+</body>
+
+</html>
