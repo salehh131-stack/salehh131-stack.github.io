@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>سياسة الخصوصية | ALULA1T</title>
+
+<meta name="description" content="سياسة الخصوصية الخاصة بموقع ALULA1T.">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container nav">
+
+<a href="index.html" class="brand">
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+<span>ALULA1T</span>
+</a>
+
+<nav class="menu">
+
+<a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+<a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a>
+<a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a>
+<a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a>
+<a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a>
+
+<button class="lang-btn" onclick="toggleLang()">EN</button>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<div class="container">
+
+<h1 class="section-title"
+data-ar="سياسة الخصوصية"
+data-en="Privacy Policy">
+سياسة الخصوصية
+</h1>
+
+<div class="card">
+
+<div class="card-content">
+
+<p
+data-ar="يحترم موقع ALULA1T خصوصية جميع الزوار، ولا يتم جمع أي معلومات شخصية إلا عند تواصل الزائر معنا أو طلب الحجز."
+data-en="ALULA1T respects the privacy of all visitors. Personal information is only collected when you contact us or request a booking.">
+يحترم موقع ALULA1T خصوصية جميع الزوار، ولا يتم جمع أي معلومات شخصية إلا عند تواصل الزائر معنا أو طلب الحجز.
+</p>
+
+<br>
+
+<p
+data-ar="قد نستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربة المستخدم وتحليل أداء الموقع."
+data-en="Cookies may be used to improve user experience and analyze website performance.">
+قد نستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربة المستخدم وتحليل أداء الموقع.
+</p>
+
+<br>
+
+<p
+data-ar="قد يعرض الموقع إعلانات من Google AdSense، والتي قد تستخدم ملفات تعريف الارتباط لتخصيص الإعلانات."
+data-en="The website may display Google AdSense advertisements, which may use cookies to personalize ads.">
+قد يعرض الموقع إعلانات من Google AdSense، والتي قد تستخدم ملفات تعريف الارتباط لتخصيص الإعلانات.
+</p>
+
+<br>
+
+<p
+data-ar="لن يتم بيع أو مشاركة بيانات المستخدم مع أي طرف ثالث إلا إذا تطلب ذلك القانون."
+data-en="User information will not be sold or shared with third parties unless required by law.">
+لن يتم بيع أو مشاركة بيانات المستخدم مع أي طرف ثالث إلا إذا تطلب ذلك القانون.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+
+<h3>ALULA1T</h3>
+
+<p data-ar="دليلك لاكتشاف العلا."
+data-en="Your guide to discovering AlUla.">
+دليلك لاكتشاف العلا.
+</p>
+
+</div>
+
+<div>
+
+<h3 data-ar="روابط سريعة"
+data-en="Quick Links">
+روابط سريعة
+</h3>
+
+<p><a href="index.html">Home</a></p>
+<p><a href="contact.html">Contact</a></p>
+
+</div>
+
+<div>
+
+<h3 data-ar="العلا"
+data-en="AlUla">
+العلا
+</h3>
+
+<p data-ar="المملكة العربية السعودية"
+data-en="Saudi Arabia">
+المملكة العربية السعودية
+</p>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 ALULA1T
+
+</p>
+
+</footer>
+
+<script>
+
+let currentLang=localStorage.getItem("lang")||"ar";
+
+function applyLang(){
+
+document.documentElement.lang=currentLang;
+document.documentElement.dir=currentLang==="ar"?"rtl":"ltr";
+
+document.querySelectorAll("[data-ar]").forEach(el=>{
+el.textContent=currentLang==="ar"?el.dataset.ar:el.dataset.en;
+});
+
+const btn=document.querySelector(".lang-btn");
+
+if(btn){
+btn.textContent=currentLang==="ar"?"EN":"AR";
+}
+
+}
+
+function toggleLang(){
+
+currentLang=currentLang==="ar"?"en":"ar";
+
+localStorage.setItem("lang",currentLang);
+
+applyLang();
+
+}
+
+applyLang();
+
+</script>
+
+</body>
+
+</html>
