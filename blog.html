@@ -9,7 +9,7 @@
 
 <title>مدونة العلا | ALULA1T</title>
 
-<meta name="description" content="دليل سياحي عن معالم العلا وأفضل أماكن الزيارة.">
+<meta name="description" content="مقالات عن معالم العلا وأفضل أماكن الزيارة.">
 
 <link rel="stylesheet" href="style.css">
 
@@ -31,15 +31,19 @@
 
 <nav class="menu">
 
-<a href="index.html">الرئيسية</a>
+<a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
 
-<a href="blog.html">المدونة</a>
+<a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a>
 
-<a href="tours.html">الجولات</a>
+<a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a>
 
-<a href="resorts.html">أفضل المنتجعات</a>
+<a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a>
 
-<a href="contact.html">تواصل</a>
+<a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a>
+
+<button class="lang-btn" onclick="toggleLang()">
+EN
+</button>
 
 </nav>
 
@@ -51,29 +55,35 @@
 
 <div class="container">
 
-<h1 class="section-title">
-
+<h1 class="section-title"
+data-ar="مدونة العلا"
+data-en="AlUla Blog">
 مدونة العلا
-
 </h1>
 
-<p class="lead">
-
+<p class="lead"
+data-ar="تعرف على أشهر معالم العلا وأفضل الأماكن التي تستحق الزيارة."
+data-en="Discover AlUla's landmarks, history and the best places to visit.">
 تعرف على أشهر معالم العلا وأفضل الأماكن التي تستحق الزيارة.
-
 </p>
 
 <div class="cards">
 <div class="card">
 
-<img src="IMG_4078.png" alt="الحِجر">
+<img src="IMG_4078.png" alt="Hegra">
 
 <div class="card-content">
 
-<h3>الحِجر</h3>
+<h3
+data-ar="الحِجر"
+data-en="Hegra">
+الحِجر
+</h3>
 
-<p>
-الحِجر أول موقع سعودي يُدرج ضمن قائمة التراث العالمي لليونسكو، ويضم مقابر منحوتة في الصخور تعود إلى الحضارة النبطية.
+<p
+data-ar="الحِجر أول موقع سعودي مُدرج ضمن قائمة التراث العالمي لليونسكو ويُعد من أهم المواقع التاريخية في العلا."
+data-en="Hegra is Saudi Arabia's first UNESCO World Heritage Site and one of AlUla's most important historical landmarks.">
+الحِجر أول موقع سعودي مُدرج ضمن قائمة التراث العالمي لليونسكو ويُعد من أهم المواقع التاريخية في العلا.
 </p>
 
 </div>
@@ -82,14 +92,20 @@
 
 <div class="card">
 
-<img src="IMG_4077.png" alt="جبل الفيل">
+<img src="IMG_4077.png" alt="Elephant Rock">
 
 <div class="card-content">
 
-<h3>جبل الفيل</h3>
+<h3
+data-ar="جبل الفيل"
+data-en="Elephant Rock">
+جبل الفيل
+</h3>
 
-<p>
-يُعد جبل الفيل من أشهر معالم العلا، ويتميز بتكوينه الصخري الطبيعي الذي يشبه شكل الفيل.
+<p
+data-ar="تكوين صخري طبيعي يُعد من أشهر معالم العلا ويستقطب الزوار طوال العام."
+data-en="A spectacular natural rock formation and one of AlUla's most famous attractions.">
+تكوين صخري طبيعي يُعد من أشهر معالم العلا ويستقطب الزوار طوال العام.
 </p>
 
 </div>
@@ -98,14 +114,20 @@
 
 <div class="card">
 
-<img src="IMG_4080.jpeg" alt="قاعة مرايا">
+<img src="IMG_4080.jpeg" alt="Maraya">
 
 <div class="card-content">
 
-<h3>قاعة مرايا</h3>
+<h3
+data-ar="قاعة مرايا"
+data-en="Maraya">
+قاعة مرايا
+</h3>
 
-<p>
-تحمل قاعة مرايا واجهة عاكسة فريدة وتستضيف العديد من الفعاليات الثقافية والفنية العالمية.
+<p
+data-ar="تحفة معمارية تستضيف فعاليات عالمية وتتميز بواجهتها العاكسة."
+data-en="An architectural masterpiece with a mirrored exterior hosting international events.">
+تحفة معمارية تستضيف فعاليات عالمية وتتميز بواجهتها العاكسة.
 </p>
 
 </div>
@@ -114,14 +136,20 @@
 
 <div class="card">
 
-<img src="IMG_4079.png" alt="البلدة القديمة">
+<img src="IMG_4079.png" alt="Old Town">
 
 <div class="card-content">
 
-<h3>البلدة القديمة</h3>
+<h3
+data-ar="البلدة القديمة"
+data-en="Old Town">
+البلدة القديمة
+</h3>
 
-<p>
-تمنح البلدة القديمة زوارها فرصة لاستكشاف الأسواق التراثية والمباني التاريخية في قلب العلا.
+<p
+data-ar="أزقة تاريخية وأسواق تراثية تعكس تاريخ العلا العريق."
+data-en="Historic streets and traditional markets that reflect AlUla's rich heritage.">
+أزقة تاريخية وأسواق تراثية تعكس تاريخ العلا العريق.
 </p>
 
 </div>
@@ -130,42 +158,20 @@
 
 <div class="card">
 
-<img src="IMG_3862.png" alt="مطل الحرة">
+<img src="IMG_3862.png" alt="Al Harrah Viewpoint">
 
 <div class="card-content">
 
-<h3>مطل الحرة</h3>
+<h3
+data-ar="مطل الحرة"
+data-en="Al Harrah Viewpoint">
+مطل الحرة
+</h3>
 
-<p>
-يوفر مطل الحرة إطلالة بانورامية رائعة على الطبيعة البركانية والوديان المحيطة بالعلا.
-</p>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<div class="card-content">
-
-<h3>كوفي شلال الجبلي</h3>
-
-<p>
-مكان هادئ للاستراحة والاستمتاع بالأجواء الطبيعية، ويُعد من الوجهات المحببة للزوار.
-</p>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<div class="card-content">
-
-<h3>صخرة الوجه الحزين</h3>
-
-<p>
-تشكيل صخري طبيعي مميز يجذب محبي التصوير واستكشاف التكوينات الصخرية في العلا.
+<p
+data-ar="إطلالة بانورامية رائعة على الطبيعة البركانية والمناظر المحيطة بالعلا."
+data-en="A panoramic viewpoint overlooking AlUla's volcanic landscape.">
+إطلالة بانورامية رائعة على الطبيعة البركانية والمناظر المحيطة بالعلا.
 </p>
 
 </div>
@@ -176,21 +182,47 @@
 
 <div class="card-content">
 
-<h3>أفضل وقت لزيارة العلا</h3>
+<h3
+data-ar="كوفي شلال الجبلي"
+data-en="Mountain Waterfall Cafe">
+كوفي شلال الجبلي
+</h3>
 
-<p>
-يُعد موسم الخريف والشتاء من أفضل الفترات لزيارة العلا بفضل اعتدال الطقس وكثرة الفعاليات.
+<p
+data-ar="مكان هادئ للاستراحة والاستمتاع بالطبيعة أثناء رحلتك في العلا."
+data-en="A relaxing stop to enjoy nature during your AlUla journey.">
+مكان هادئ للاستراحة والاستمتاع بالطبيعة أثناء رحلتك في العلا.
 </p>
 
 </div>
 
 </div>
 
+<div class="card">
+
+<div class="card-content">
+
+<h3
+data-ar="صخرة الوجه الحزين"
+data-en="Sad Face Rock">
+صخرة الوجه الحزين
+</h3>
+
+<p
+data-ar="تشكيل صخري طبيعي مميز يجذب محبي التصوير واستكشاف الطبيعة."
+data-en="A unique natural rock formation popular with photographers and explorers.">
+تشكيل صخري طبيعي مميز يجذب محبي التصوير واستكشاف الطبيعة.
+</p>
+
+</div>
+
+</div>
 </div>
 
 </div>
 
 </section>
+
 <footer>
 
 <div class="container footer-grid">
@@ -199,31 +231,47 @@
 
 <h3>ALULA1T</h3>
 
-<p>
-دليلك لاكتشاف العلا ومعالمها وجولاتها وأفضل أماكن الإقامة.
+<p
+data-ar="دليلك لاكتشاف العلا ومعالمها التاريخية والطبيعية."
+data-en="Your guide to discovering AlUla's history and natural wonders.">
+دليلك لاكتشاف العلا ومعالمها التاريخية والطبيعية.
 </p>
 
 </div>
 
 <div>
 
-<h3>روابط سريعة</h3>
+<h3
+data-ar="روابط سريعة"
+data-en="Quick Links">
+روابط سريعة
+</h3>
 
-<p><a href="index.html">الرئيسية</a></p>
-<p><a href="blog.html">المدونة</a></p>
-<p><a href="tours.html">الجولات</a></p>
-<p><a href="resorts.html">أفضل المنتجعات</a></p>
-<p><a href="contact.html">تواصل</a></p>
+<p><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></p>
+
+<p><a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a></p>
+
+<p><a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a></p>
+
+<p><a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a></p>
+
+<p><a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a></p>
 
 </div>
 
 <div>
 
-<h3>العلا</h3>
+<h3
+data-ar="العلا"
+data-en="AlUla">
+العلا
+</h3>
 
-<p>المملكة العربية السعودية</p>
-
-<p>استمتع بتجربة سياحية مميزة في قلب الطبيعة والتاريخ.</p>
+<p
+data-ar="المملكة العربية السعودية"
+data-en="Saudi Arabia">
+المملكة العربية السعودية
+</p>
 
 </div>
 
@@ -232,20 +280,72 @@
 <div class="container" style="margin-top:25px;text-align:center;">
 
 <p>
-<a href="privacy.html">سياسة الخصوصية</a>
+
+<a href="privacy.html"
+data-ar="سياسة الخصوصية"
+data-en="Privacy Policy">
+سياسة الخصوصية
+</a>
+
 &nbsp; | &nbsp;
-<a href="terms.html">الشروط والأحكام</a>
+
+<a href="terms.html"
+data-ar="الشروط والأحكام"
+data-en="Terms & Conditions">
+الشروط والأحكام
+</a>
+
 </p>
 
 </div>
 
 <p class="copyright">
 
-© 2026 ALULA1T - جميع الحقوق محفوظة
+© 2026 ALULA1T
 
 </p>
 
 </footer>
+
+<script>
+
+let currentLang = localStorage.getItem("lang") || "ar";
+
+function applyLang(){
+
+document.documentElement.lang=currentLang;
+
+document.documentElement.dir=currentLang==="ar"?"rtl":"ltr";
+
+document.querySelectorAll("[data-ar]").forEach(el=>{
+
+el.textContent=currentLang==="ar"
+?el.dataset.ar
+:el.dataset.en;
+
+});
+
+const btn=document.querySelector(".lang-btn");
+
+if(btn){
+btn.textContent=currentLang==="ar"?"EN":"AR";
+}
+
+}
+
+function toggleLang(){
+
+currentLang=currentLang==="ar"?"en":"ar";
+
+localStorage.setItem("lang",currentLang);
+
+applyLang();
+
+}
+
+applyLang();
+
+</script>
 
 </body>
 
