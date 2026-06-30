@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الشروط والأحكام | ALULA1T</title>
+
+<meta name="description" content="الشروط والأحكام الخاصة بموقع ALULA1T.">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container nav">
+
+<a href="index.html" class="brand">
+<img src="IMG_4136.jpeg" alt="ALULA1T">
+<span>ALULA1T</span>
+</a>
+
+<nav class="menu">
+
+<a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+<a href="blog.html" data-ar="المدونة" data-en="Blog">المدونة</a>
+<a href="tours.html" data-ar="الجولات" data-en="Tours">الجولات</a>
+<a href="resorts.html" data-ar="أفضل المنتجعات" data-en="Top Resorts">أفضل المنتجعات</a>
+<a href="contact.html" data-ar="تواصل" data-en="Contact">تواصل</a>
+
+<button class="lang-btn" onclick="toggleLang()">EN</button>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<div class="container">
+
+<h1 class="section-title"
+data-ar="الشروط والأحكام"
+data-en="Terms & Conditions">
+الشروط والأحكام
+</h1>
+
+<div class="card">
+
+<div class="card-content">
+
+<p
+data-ar="باستخدامك لهذا الموقع فإنك توافق على الالتزام بالشروط والأحكام الواردة في هذه الصفحة."
+data-en="By using this website, you agree to these Terms and Conditions.">
+باستخدامك لهذا الموقع فإنك توافق على الالتزام بالشروط والأحكام الواردة في هذه الصفحة.
+</p>
+
+<br>
+
+<p
+data-ar="المعلومات المعروضة لأغراض التعريف بالخدمات السياحية، وقد تتغير الأسعار أو البرامج حسب الموسم والتوفر."
+data-en="The information provided is for tourism services. Prices and programs may change depending on season and availability.">
+المعلومات المعروضة لأغراض التعريف بالخدمات السياحية، وقد تتغير الأسعار أو البرامج حسب الموسم والتوفر.
+</p>
+
+<br>
+
+<p
+data-ar="يتحمل المستخدم مسؤولية صحة البيانات التي يقدمها عند التواصل أو طلب الحجز."
+data-en="Users are responsible for the accuracy of the information they provide when contacting us or requesting a booking.">
+يتحمل المستخدم مسؤولية صحة البيانات التي يقدمها عند التواصل أو طلب الحجز.
+</p>
+
+<br>
+
+<p
+data-ar="يحق لإدارة الموقع تحديث هذه الشروط في أي وقت دون إشعار مسبق."
+data-en="The website owner may update these Terms and Conditions at any time without prior notice.">
+يحق لإدارة الموقع تحديث هذه الشروط في أي وقت دون إشعار مسبق.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+
+<h3>ALULA1T</h3>
+
+<p data-ar="دليلك لاكتشاف العلا."
+data-en="Your guide to discovering AlUla.">
+دليلك لاكتشاف العلا.
+</p>
+
+</div>
+
+<div>
+
+<h3 data-ar="روابط سريعة"
+data-en="Quick Links">
+روابط سريعة
+</h3>
+
+<p><a href="index.html">Home</a></p>
+<p><a href="contact.html">Contact</a></p>
+
+</div>
+
+<div>
+
+<h3 data-ar="العلا"
+data-en="AlUla">
+العلا
+</h3>
+
+<p data-ar="المملكة العربية السعودية"
+data-en="Saudi Arabia">
+المملكة العربية السعودية
+</p>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 ALULA1T
+
+</p>
+
+</footer>
+
+<script>
+
+let currentLang=localStorage.getItem("lang")||"ar";
+
+function applyLang(){
+
+document.documentElement.lang=currentLang;
+document.documentElement.dir=currentLang==="ar"?"rtl":"ltr";
+
+document.querySelectorAll("[data-ar]").forEach(el=>{
+el.textContent=currentLang==="ar"?el.dataset.ar:el.dataset.en;
+});
+
+const btn=document.querySelector(".lang-btn");
+
+if(btn){
+btn.textContent=currentLang==="ar"?"EN":"AR";
+}
+
+}
+
+function toggleLang(){
+
+currentLang=currentLang==="ar"?"en":"ar";
+
+localStorage.setItem("lang",currentLang);
+
+applyLang();
+
+}
+
+applyLang();
+
+</script>
+
+</body>
+
+</html>
