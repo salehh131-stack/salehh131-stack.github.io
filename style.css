@@ -1,3 +1,5 @@
+
+
 /* ===================================
    ALULA1T
    Global Style
@@ -762,5 +764,48 @@ font-size:21px;
 font-size:15px;
 
 }
+
+}/* ================= LANGUAGE BUTTON ================= */
+
+.lang-btn{
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+width:42px;
+height:42px;
+
+border:1px solid var(--border);
+border-radius:50%;
+
+background:#fff;
+
+color:var(--primary);
+
+font-weight:700;
+font-size:14px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.lang-btn:hover{
+
+background:var(--primary);
+
+color:#fff;
+
+}
+
+.menu button{
+
+font-family:inherit;
+
+border:none;
+
+outline:none;
 
 }
